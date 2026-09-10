@@ -21,9 +21,6 @@ def add_employee():
 def display_employees():
     if not employees:
         print("No employees found.")
-        return
-
-    print("\nEmployee List")
     print("-" * 50)
 
     for employee in employees:
