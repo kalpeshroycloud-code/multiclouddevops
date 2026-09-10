@@ -22,7 +22,7 @@ def add_employee():
 def display_employees():
     if not employees:
         print("No employees found.")
-    print("-" * 50)
+    print("-" * this changes i have made 50)
 
     for employee in employees:
         print("ID:", employee["id"])
